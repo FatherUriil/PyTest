@@ -5,7 +5,7 @@ print("The number of books on the media: %s" % (int(float(input("Enter the stora
         input("Enter the number of characters per line: ")) * int(input("Enter the number of lines per page: ")) * int(
         input("Enter the number of pages in the book: ")))))
 
-# TЗадание 2
+# Задание 2
 
 print()
 mode = input("Enter calc mode(circle, square): ")
@@ -38,15 +38,6 @@ width = float(input("Enter width: "))
 perimetr = length * width
 print(perimetr)
 
-# задание 6
-
-print()
-money = int(input("Enter the amount of money in the account: "))
-add = int(input("Enter the number of percentages: ")) / 100
-result = money * add
-print(f"Percentages: {result}")
-print(f"After interest payment: {money - result}")
-
 # Задание 7
 
 print()
@@ -59,16 +50,16 @@ print(f"Hours: {hours}")
 # Задание 8
 
 print()
-list_players = ['Adam', 'Lucifer', 'God']
+list_players = ['Frost', 'IvanGuy', 'Mood']
 last_player = list_players[len(list_players) - 1]
-reestr = {'First': 'Adam', 'Second': 'Lucifer', 'Third': 'God'}
+reestr = {'First': 'Frost', 'Second': 'IvanGuy', 'Third': 'Mood'}
 print(f"Last player: {last_player}")
 print(f"First player: {reestr['First']}")
 
 # Задание 9
 
 print()
-fruits = ["яблоко", "банан", "опельсин", "виноград"]
+fruits = ["лимонка", "бананчик", "Яблочко", "лаймик"]
 incorrect_word = fruits[2]
 correct_word = "а" + incorrect_word[1:]
 fruits[2] = correct_word
